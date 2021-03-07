@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+h1 {font-style: italic;
+    font-size: 50px;
+}
+
+h2 {
+    /* Make this all caps */
+}
+
+h2.underline {
+/* for top section headers */
+}
+
+p.bold {
+    font-style: bold;
+}
+
+.fill {
+/* for mid and bottom section headers and skills list, give blue background */
+}
+
+.underline
+
+.unicode

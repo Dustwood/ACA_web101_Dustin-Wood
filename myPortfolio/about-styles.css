@@ -1,0 +1,64 @@
+/* Default syles for mobile */
+body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: ITC Garamond W01 Light,serif;
+    background: #ededed;
+    margin-left: 24px;
+    margin-right: 24px;
+    }
+
+h1 {
+    font-family: adobe-garamond-pro,Garamond,serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 160px;
+    grid-area: 1 / 1 / span 1 / span 5;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#UChicago {
+    grid-area: 1 / 1 / span 1 / span 5;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: ITC Garamond W01 Light,serif;
+    color: #000;
+    text-align: left;
+}
+
+#headshot {
+    grid-area: 2 / 1 / span 1 / span 2;
+}
+
+article {
+    grid-area: 2 / 3 / span 1 / span 3;
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+/* Styles for laptops and bigger */
+@media (min-width: 1024px) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
